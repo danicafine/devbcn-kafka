@@ -1,0 +1,28 @@
+{
+  "connect.name": "ksql.transactions",
+  "fields": [
+    {
+      "name": "transaction_id",
+      "type": "long"
+    },
+    {
+      "name": "card_id",
+      "type": "long"
+    },
+    {
+      "name": "user_id",
+      "type": "string"
+    },
+    {
+      "name": "purchase_id",
+      "type": "long"
+    },
+    {
+      "name": "store_id",
+      "type": "int"
+    }
+  ],
+  "name": "transactions",
+  "namespace": "ksql",
+  "type": "record"
+}
